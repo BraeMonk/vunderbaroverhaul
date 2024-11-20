@@ -6,6 +6,8 @@ html{
 	width:100%;
 	overflow:hidden;
 	background-color:red;
+	display:flex;
+	flex-direction:column;
 }
 
 .video{
