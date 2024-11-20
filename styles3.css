@@ -9,9 +9,11 @@ html{
 	display:flex;
 	flex-direction:column;
 }
-a,
-.video{
+a{
 	text-decoration:none;
+}
+
+.video{
 	color:white;
 	text-shadow:3px 3px 5px black;
 	font-family: courier;
