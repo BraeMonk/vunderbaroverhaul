@@ -8,6 +8,10 @@ html{
 	background-color:red;
 	display:flex;
 	flex-direction:column;
+	font-family:courier;
+	font-size:xx-large;
+	text-shadow:3px 3px 5px black;
+	color:white;
 }
 a{
 	text-decoration:none;
