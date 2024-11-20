@@ -1,0 +1,27 @@
+body{
+	background-image:url("./5B2C9A72-6089-40C0-B303-03EC4D252C8D.gif");
+	background-color:black;
+	background-position:center;
+	background-size:content;
+}
+
+.coming-soon1{
+	text-decoration:none;
+	text-align:center;
+	display:flex;
+}
+
+.coming-soon{
+	border:solid white;
+	border-radius:5px;
+	font-size:xx-large;
+	font-family:courier;
+	background-color:black;
+	color:white;
+	padding:20px;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	text-decoration:none;
+	justify-content:center;
+}
