@@ -19,7 +19,6 @@ a{
 }
 
 .video{
-	text-align:center;
 	color:white;
 	text-shadow:3px 3px 5px black;
 	font-family: courier;
@@ -36,6 +35,8 @@ a{
 	flex-direction:column;
 	padding:20px;
 	justify-content:space-between;
+	top:0;
+	left:-20%;
 }
 
 .coming-soon1{
