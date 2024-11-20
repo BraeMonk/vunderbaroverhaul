@@ -59,3 +59,27 @@ function playMedia(){
 playButton.addEventListener('click', playMedia);
 });
 
+// script.js
+document.addEventListener('DOMContentLoaded', function() {
+    const navLinks = document.querySelectorAll('.nav-link');
+    const videoTransition = document.getElementById('video-transition');
+    const transitionVideo = document.getElementById('transition-video');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();  // Prevent the default link behavior
+            const targetUrl = this.href;
+
+            // Show the video transition overlay
+            videoTransition.classList.remove('hidden');
+            transitionVideo.play();
+
+            // Wait for the video to end before navigating
+            transitionVideo.onended = function() {
+                window.location.href = targetUrl;
+            };
+        });
+    });
+});
+
+
