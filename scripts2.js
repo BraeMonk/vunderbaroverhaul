@@ -1,7 +1,7 @@
 // script.js
 document.addEventListener('DOMContentLoaded', function() {
-    const playButton = document.getElementById('cp2');
-    const video = document.getElementById('sassy');
+    const playButton = document.getElementById('playBtn');
+    const video = document.getElementById('');
 
     playButton.addEventListener('click', function() {
         video.play();
