@@ -11,6 +11,10 @@ html{
 }
 
 .video{
+	color:white;
+	text-shadow:3px 3px 5px black;
+	font-family: courier;
+	text-align:center;
 	background-image:url("./copy_CC503455-85B5-4062-9BE7-63934BA0A505.gif");
 	background-size:cover;
 	background-position:center;
