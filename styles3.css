@@ -7,42 +7,6 @@ html{
 	overflow:hidden;
 }
 
-#transition-overlay{
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	z-index:1000;
-	transition:opacity 500ms ease-in-out;
-}
-
-.hidden{
-	opacity:0;
-	pointer-events:none;
-}
-
-.transition-video{
-	width:100%;
-	height:auto;
-}
-
-.nav-link{
-	margin-right:10px;
-	color:white;
-	text-decoration:none;
-	background:black;
-	padding:10px;
-	border-radius:5px;
-}
-
-.nav-link:hover{
-	background:gray;
-}
-
 .coming-soon1{
 	text-decoration:none;
 	text-align:center;
